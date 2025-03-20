@@ -26,12 +26,10 @@
       const username = document.getElementById("username").value;
       const password = document.getElementById("password").value;
 
-      if (username === "k" && password === "p") {
+  
         localStorage.setItem("loggedInUser", username);
         window.location.href = "bmi.html";
-      } else {
-        document.getElementById("error-msg").style.display = "block";
-      }
+      
     });
   </script>
 </body>
